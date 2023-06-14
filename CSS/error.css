@@ -1,0 +1,42 @@
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-top: 2rem;
+  }
+  
+  .container-titulo {
+    font-size: 8rem;
+    color: #ffffff;
+  }
+  
+  .container-parrafo {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0;
+  }
+
+
+  .inicio button {
+    background-color: #79071f ;
+    width: 6rem;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 3px 3px 6px black, 0 0 1em rgb(111, 108, 108), 0 0 0.2em #ffffff;
+  }

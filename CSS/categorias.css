@@ -1,0 +1,98 @@
+body {
+  background-attachment: fixed;
+background-size: cover;
+}
+.categoria {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: space-between;
+}
+
+.tarjeta-categoria {
+  margin: 5rem;
+  transition: 0.4s;
+}
+
+.producto {
+  margin-bottom: auto;
+  height: auto;
+}
+
+.botones {
+  width: 98%;
+  margin: 1rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 1rem;
+}
+.botones button {
+  border-radius: 1rem;
+  padding: 0.8rem;
+  background-color: #ffffff65;
+}
+
+.tarjeta-categoria:hover {
+  box-shadow: 1px 1px 35px 15px rgba(254, 254, 254, 0.863);
+}
+
+.tarjeta-categoria img {
+  width: 18rem;
+  height: 25rem;
+}
+strong {
+  color: #db4a39;
+}
+.toast-header img {
+  margin-left: 0.2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.paginacion {
+  margin-right: 1rem;
+}
+.paginacion a:hover {
+  color: black;
+}
+
+/* */
+@media (max-width: 1400px) {
+  .tarjeta-categoria {
+    margin: 1rem;
+    transition: 0.4s;
+  }
+}
+
+/* */
+@media (max-width: 927px) {
+  .categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarjeta-categoria {
+    margin: 2.5rem;
+    transition: 0.4s;
+  }
+}
+
+/* mediacueris para pantallas muy pequeñas */
+@media (max-width: 375px) {
+  .tarjeta-categoria img {
+    margin-left: -0.8rem;
+    width: 17.4rem;
+  }
+  .tarjeta-categoria {
+    margin: 1rem;
+    transition: 0.4s;
+  }
+}
+
+.toast-header {
+  background-color: rgb(255, 255, 255);
+}
+
+.blare_toast {
+  color: black;
+}
